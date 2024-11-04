@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélection d'Animaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sélection d'Animaux</h1>
+        <div class="animal-buttons">
+            <button onclick="selectAnimal('lion')">Lion</button>
+            <button onclick="selectAnimal('chien')">Chien</button>
+            <button onclick="selectAnimal('chat')">Chat</button>
+            <button onclick="selectAnimal('serpent')">Serpent</button>
+        </div>
+        <div id="animal-description">
+            <p>Sélectionnez un animal pour voir sa description et son image.</p>
+        </div>
+        <img id="animal-image" src="" alt="Image de l'animal">
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
